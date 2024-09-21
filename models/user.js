@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+//user.js fixed with pre db mode
 const { Schema, model, models } = mongoose;
 
 const UserSchema = new Schema({
