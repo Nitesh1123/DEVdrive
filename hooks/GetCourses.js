@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+//GETTING THE COURSES fEOM REST API WORKING 
 
 export default function useCourses(registrationNumber) {
   const [courses, setCourses] = useState(null);
