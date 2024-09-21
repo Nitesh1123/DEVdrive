@@ -92,6 +92,7 @@ function Login() {
       Cookies.set("session", cookie, { path: "/" });
 
       // Fetch user details
+      //EROOR FIXED NOT WORKING 
       const userResponse = await fetch("/api/userDetails", {
         method: "POST",
         headers: {
