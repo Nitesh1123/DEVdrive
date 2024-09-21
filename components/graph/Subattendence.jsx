@@ -3,6 +3,8 @@ import { BarChart } from "@mui/x-charts/BarChart";
 import { useState, useEffect } from "react";
 import useUserStore from "@/store/useUserStore";
 import Timetable from "./Timetable";
+// Attendece not working 
+//FIX THIS 
 
 const chartSetting = {
   xAxis: [
